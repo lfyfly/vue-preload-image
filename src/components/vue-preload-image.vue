@@ -46,6 +46,7 @@
 <template lang="pug">
 .vue-preload-image(v-if="show")
   .progress
+    slot
     div.loadingAnimation(v-if="animationShow").loadingAnimation
     p.tip-str(v-if="tipStrShow") {{tipStr}}
     p.progress-str(v-if="progressShow") {{progressStr}}

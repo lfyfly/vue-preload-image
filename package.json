@@ -1,6 +1,6 @@
 {
   "name": "vue-preload-image",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Image preloading component of vue",
   "author": "lfyfly <410793635@qq.com>",
   "main": "./src/components/vue-preload-image.vue",

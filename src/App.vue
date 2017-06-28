@@ -1,6 +1,7 @@
 <template lang="pug">
 #app
   preload-image(:imgUrlArr="imgUrls", @imgAllLoaded="fn")
+
   .imgs-container(v-if="preLoaded")
     img(v-for="(v,i) in imgUrls",:src="v",:alt="`第${i+1}张图片`",:title="`第${i+1}张图片`")
 </template>

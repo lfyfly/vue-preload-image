@@ -3,10 +3,11 @@
 当网页中存在大量图片，且网速缓慢时，会带来极差的用户体验。
 我们可以利用**加载页面**来**预加载图片资源**，获得流畅的用户体验。
 ## [DEMO](https://lfyfly.github.io/vue-preload-image/)
+## [github](https://github.com/lfyfly/vue-preload-image)
 ## 适用于vue2.x
 ## 安装
 ```
-npm i vue-preload-image -D
+npm install vue-preload-image -save-dev
 ```
 ## 局部引用
 ```js
@@ -68,4 +69,10 @@ export default {
  图片全部加载完成后执行
 ```html
 <preload-image :imgUrlArr="imgUrls" @imgAllLoaded="fn"></preload-image>
+```
+## 通过slot使用自定义加载动画
+```html
+<preload-image :imgUrlArr="imgUrls" @imgAllLoaded="fn" :animationShow="false">
+  <img src="your-loading.gif" />
+</preload-image>
 ```
