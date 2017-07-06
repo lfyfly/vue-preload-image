@@ -7,7 +7,7 @@
 ## 适用于vue2.x
 ## 安装
 ```
-npm install vue-preload-image -save-dev
+npm install vue-preload-image --save-dev
 ```
 ## 局部引用
 ```js
