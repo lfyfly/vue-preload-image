@@ -2,7 +2,7 @@
 
 当网页中存在大量图片，且网速缓慢时，会带来极差的用户体验。
 我们可以利用**加载页面**来**预加载图片资源**，获得流畅的用户体验。
-## [DEMO](http://lfyfly.gitee.io/vue-preload-image/docs/)
+## [DEMO](http://lfyfly.github.io/vue-preload-image/docs/)
 ## [github](https://github.com/lfyfly/vue-preload-image)
 ## 适用于vue2.x
 ## 安装
